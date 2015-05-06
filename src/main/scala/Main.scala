@@ -1,4 +1,4 @@
-package com.mikko.repotest2
+package com.mikko.sliderpuzzle
 
 object Main {
   def main(args: Array[String]) {

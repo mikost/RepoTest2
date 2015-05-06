@@ -1,4 +1,4 @@
-package com.mikko.repotest2
+package com.mikko.sliderpuzzle
 
 import org.specs._
 

@@ -8,7 +8,6 @@ To try out, run the following command lines (except the '$'s) in a terminal wind
 
 If you have 'Sbt' properly installed, the output of the 'sbt run' command should be similar to:
 
-        Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=384M; support was removed in 8.0
         [info] Loading project definition from /home/user/Slider-Puzzle/project
         [info] Updating {file:/home/user/Slider-Puzzle/project/}slider-puzzle-build...
         [info] Resolving org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784d[info] Resolving org.fusesource.jansi#jansi;1.4 ...

@@ -3,16 +3,17 @@ package com.mikko.repotest2
 object Main {
   def main(args: Array[String]) {
     val puzzle = new SliderPuzzle(4,4)
-    print(puzzle)
-    puzzle.move(15)
-    print(puzzle)
-    puzzle.move(11)
-    print(puzzle)
-    puzzle.move(110)
-    print(puzzle)
+    moveAndPrint(puzzle, 15)
+    moveAndPrint(puzzle, 11)
+    moveAndPrint(puzzle, 12)
   }
 
-  def add(a: Int, b: Int) = a + b
+  def moveAndPrint(puzzle: SliderPuzzle, sliderNum: Int) {
+    puzzle move sliderNum
+    println("Move slider "+ sliderNum +":")
+    println((puzzle toString) split "\n"
+                              mkString("  ", "\n  ", ""))
+  }
 }
 
 object Direction extends Enumeration {

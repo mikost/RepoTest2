@@ -26,14 +26,17 @@ If you have 'Sbt' properly installed, the output of the 'sbt run' command should
           < 5>< 6>< 7>< 8>
           < 9><10><11><12>
           <13><14><  ><15>
+
         Move slider 11:
           < 1>< 2>< 3>< 4>
           < 5>< 6>< 7>< 8>
           < 9><10><  ><12>
           <13><14><11><15>
+
         Move slider 12:
           < 1>< 2>< 3>< 4>
           < 5>< 6>< 7>< 8>
           < 9><10><12><  >
           <13><14><11><15>
+
         [success] Total time: 4 s, completed May 6, 2015 12:06:54 PM

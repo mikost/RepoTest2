@@ -12,7 +12,7 @@ object Main {
     puzzle move sliderNum
     println("Move slider "+ sliderNum +":")
     println((puzzle toString) split "\n"
-                              mkString("  ", "\n  ", ""))
+                              mkString("  ", "\n  ", "\n"))
   }
 }
 

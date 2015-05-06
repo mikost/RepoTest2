@@ -1,6 +1,6 @@
 # A model of a Slider Puzzle game, implemented in Scala.
 
-To try out, run the following command lines (except the '$'s) in a terminal window:
+To try it out, run the following command lines (except the '$'s) in a terminal window:
 
         $ git clone https://github.com/mikost/Slider-Puzzle
         $ cd Slider-Puzzle/
